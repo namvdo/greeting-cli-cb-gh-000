@@ -3,5 +3,6 @@ def greeting(name)
 "Hello #{gets.name}.It is nice to meet you"
 puts "Hi! I'm HAL, what's your name?"
 gets.strip
-name = chomp
+name = gets.chomp \n
 end
+greeting 
