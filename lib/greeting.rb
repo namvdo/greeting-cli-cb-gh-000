@@ -2,4 +2,3 @@
 def greeting(name)
 "Hello #{gets.name}.It is nice to meet you"
 end
-
