@@ -5,4 +5,4 @@ puts "Hi! I'm HAL, what's your name?"
 gets.strip
 name = gets.chomp
 end
-greeting
+greeting(name)
